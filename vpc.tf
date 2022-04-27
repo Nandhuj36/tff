@@ -3,7 +3,7 @@ resource "aws_vpc" "demo" {
   instance_tenancy = "default"
 
   tags = {
-    Name = "demo-vpc"
+    Name = "demo_vpc"
   }
 }
 resource "aws_subnet" "demo1" {
